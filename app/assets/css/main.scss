@@ -3,12 +3,14 @@
 body {
   @apply antialiased;
   @apply subpixel-antialiased;
+  
 }
 
 .main {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  background-color: black;
 }
 
 .page-enter-active,
